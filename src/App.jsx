@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from "./component/login";
 import Men from "./men";
  import Content from "./component/video";
+import Women from "./women";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/men" element={<Men />} />
+        <Route path="/women" element={<Women />} />
         <Route path="/video" element={<Content />} />
       </Routes>
 

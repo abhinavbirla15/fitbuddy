@@ -13,7 +13,7 @@ const Content = () => {
     <Navbar />
     <div className="flex flex-col text-white py-10 min-h-screen my-14 bg-black overflow-hidden bg-cover">
         <div className="items-center text-center">
-            <h1 className="text-4xl font-bold mb-8 ">Chest Workouts</h1>
+            <h1 className="text-4xl font-bold mb-8 ">Workouts</h1>
             <div className="flex items-center justify-center">
                 <iframe 
                     width="800" 
